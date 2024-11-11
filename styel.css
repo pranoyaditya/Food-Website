@@ -1,0 +1,120 @@
+body{
+	font-family: Arial;
+	background-color: #DEF2F1;
+}
+.main-section
+{
+	display: grid;
+	grid-template-columns: 80% 20%;
+	margin-top: 50px;
+}
+
+.search-heading
+{
+	margin-bottom: 50px;
+}
+.meal-search-section
+{
+	text-align: center;
+	border-right: 2px solid rgba(0, 0, 0, 0.2); /* Add border here */
+    padding-right: 20px;
+}
+.meal-input
+{
+	width: 350px;
+	font-size: 15px;
+	padding: 5px;
+	border: 2px solid rgba(0, 0, 0, 0.614);
+	border-radius: 5px;
+	background-color: rgba(128, 128, 128, 0.148);
+}
+.search-btn
+{
+	font-size: 15px;
+	padding: 7px 10px;
+	border: none;
+	color: white;
+	background-color: #FF6F61;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.no-result-message
+{
+	font-size: 3em;
+	text-align: center;
+}
+
+.meal-cards-section
+{
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.mealCard
+{
+	background-color: #D8E2DC;
+	border: 1px solid black;
+	width: 300px;
+	border-radius: 10px;
+	padding: 10px;
+}
+.item-name
+{
+	margin-top: 8px;
+}
+
+.recipe-order-btn-section
+{
+	display: flex;
+	justify-content: space-around;
+}
+.order-btn
+{
+	background-color: #FFD56B;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 15px;
+}
+.recipe-btn
+{
+	background-color: #A8D5BA;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 15px;
+}
+.item-name
+{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.cart-section
+{
+	text-align: center;
+  position: sticky;
+  top: 0; 
+  align-self: start; 
+}
+
+.ordered-meal-card
+{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 10px;
+	font-size: 15px;
+}
+
+.order-recipe-btn
+{
+	background-color: #A8D5BA;
+	border: none;
+	padding: 0px 15px;
+	cursor: pointer;
+	border-radius: 5px;
+}
